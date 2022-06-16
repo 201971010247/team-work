@@ -32,6 +32,10 @@ def paint(list11=[], list22=[]):
     plt.scatter(list11, list22)
     plt.show()
 
+@app.route('/url/<username>')
+def show_user_profile(username):
+    return 'User: %s' % username
+
 
 # 排序
 
