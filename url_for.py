@@ -12,6 +12,9 @@ def get_post_url():
 def show_user_profile(username):
     return 'User: %s' % username
 
+@app.route('/url/<username>')
+def show_user_profile(username):
+    return 'User: %s' % username
 
 @app.route('/url/')
 def get_url():
