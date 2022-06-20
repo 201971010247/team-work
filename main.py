@@ -66,7 +66,8 @@ def solve(c1, s=[], y=[]):
     sh = win1.winfo_screenheight()
     win1.geometry('+%d+%d' % ((sw - 500) / 2, (sh - 300) / 2))
     n = len(list11)
-    import datetime
+    
+    import datetime;
 
     starttime = datetime.datetime.now()
     n = len(list11)
