@@ -34,7 +34,6 @@ def paint(list11=[], list22=[]):
 
 @app.route('/url/<username>')
 def show_user_profile(username):
-    
     return 'User: %s' % username
 
 
