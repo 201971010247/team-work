@@ -1,4 +1,5 @@
 from flask import Flask, url_for
+
 app=Flask(__name__)
 @app.route('/post/<int:post_id>')
 def show_post(post_id):
