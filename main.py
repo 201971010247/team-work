@@ -50,7 +50,7 @@ def sort(list11=[], list22=[]):
     for i in range(2, len(list11) + 1):
         if i % 3 == 0:
             list4.append(round(int(list11[i - 1]) / int(list22[i - 1]), 3))
-    list4.sort(reverse=True)
+            list4.sort(reverse=True)
 
     tkinter.messagebox.showinfo("按照性价比的非递增排序", list4)
     win1.destroy()
